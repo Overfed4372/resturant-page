@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-color: bisque;
+    padding: 2rem;
+    & nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+            & button {
+                font-size: 3rem;
+                color: azure;
+                background-color: blue;
+                padding: 1rem;
+                border-radius: 100%;
+                border: 0;
+            }
+    }
+}
+.home-page {
+    display: flex;
+    flex-direction: column;
+}
